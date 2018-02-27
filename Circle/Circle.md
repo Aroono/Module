@@ -1,4 +1,8 @@
-使用方法：
+## Canvas环形
+（适用于IE6等不支持Canvas、SVG功能得浏览器）
+
+###使用方法：
+``` bash
 <div class="chart1">
     <div class="percentage" data-percent="99" m-Circle="c1"><span>92</span>%</div>                   
 </div>
@@ -12,3 +16,4 @@
 			animate: false
 		});
 </script> 
+```
